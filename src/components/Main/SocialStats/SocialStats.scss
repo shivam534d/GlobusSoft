@@ -1,0 +1,22 @@
+.user-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  .user-info-card {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    align-items: center;
+    .icon-background {
+      border-radius: 51%;
+      padding: 15px;
+    }
+    .user-info {
+      .title {
+        margin: 0px;
+      }
+    }
+  }
+}

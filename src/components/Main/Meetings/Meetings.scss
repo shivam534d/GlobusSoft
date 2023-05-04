@@ -1,0 +1,44 @@
+.meetings-container{
+  .title {
+    font-weight: 600;
+  }
+  .user-cards {
+  display: flex;
+  gap: 16px;
+  flex-direction: column;
+  margin-top: 15px;
+  .user-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    margin: 0px;
+    padding: 30px;
+    .user-info-card {
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-start;
+      gap: 14px;
+      align-items: center;
+      .user-image {
+        width: 100%;
+        max-width: 60px;
+        border-radius: 50%;
+      }
+      .user-info {
+        h4.name {
+          font-weight: 600;
+        }
+        p.time {
+          margin: 0px;
+        }
+      }
+    }
+  }
+  .card.add-user {
+    padding: 30px;
+    background-color: var(--white);
+    text-align: center;
+  }
+}}

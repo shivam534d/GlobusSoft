@@ -1,0 +1,14 @@
+.card {
+  &.tranparent {
+    background-color: rgba(0,0,0,0);
+    h1 {
+      margin-bottom: 15px;
+    }
+    h2 {
+      margin-bottom: 25px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+  }
+}

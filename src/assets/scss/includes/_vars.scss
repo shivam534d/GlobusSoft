@@ -1,0 +1,47 @@
+:root {
+  /* Primary Selection Color */
+  // --primary-color : ;
+  // --secondary-color : ;
+  // --tertiary-color : ;
+  // --tertiary-color : ;
+  --primary: #fbc92c;
+  --selection-color: #35a1ff;
+  --selection-text-color: #010d2c;
+
+  /* Gray Scale */
+  --white: #ffffff;
+  --grey: #eceff1;
+  --black: #000000;
+  --text-color: #465964;
+
+  /* Cool */
+  --aqua: #7FDBFF;
+  --blue: #4759ff;
+  --navy: #001F3F;
+  --teal: #39CCCC;
+  --green: #2ECC40;
+  --olive: #3D9970;
+  --lime: #01FF70;
+
+  /* Warm */
+  --yellow: #FFDC00;
+  --orange: #FF851B;
+  --red: #FF4136;
+  --fuchsia: #F012BE;
+  --purple: #B10DC9;
+  --maroon: #85144B;
+
+  /* Media Query BreakPoints */
+  --small-devices: 576px;
+  --medium-devices: 768px;
+  --large-devices: 992px;
+  --xlarge-devices: 1200px;
+}
+
+/* To use the variables, you can simply call them like this */
+.container {
+  color: var(--red);
+  background-color: var(--white);
+  font-size: 1.2rem;
+  border: 2px solid var(--aqua);
+}
